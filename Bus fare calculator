@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int km;
+    float fare;
+    printf("Enter distance (km): ");
+    scanf("%d", &km);
+
+    fare = km * 2.5;
+    printf("Bus Fare = %.2f", fare);
+    return 0;
+}
